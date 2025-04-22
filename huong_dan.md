@@ -71,3 +71,47 @@ SOFTWARE.
 Lưu file và chạy lại lệnh flutter pub publish
 
 Nếu bạn không chắc chắn nên chọn loại giấy phép nào, MIT là một lựa chọn phổ biến cho các package mã nguồn mở vì nó đơn giản và cho phép việc sử dụng lại rộng rãi.
+
+---
+
+Bước 1: Cập nhật phiên bản trong pubspec.yaml
+
+Mở tệp pubspec.yaml trong dự án của bạn
+Tìm dòng có chứa thông tin phiên bản
+Thay đổi phiên bản từ 0.0.1 thành 0.0.2
+
+yamlname: face_detector_plugin
+description: Your package description
+version: 0.0.2  # Thay đổi từ 0.0.1
+Bước 2: Cập nhật CHANGELOG.md
+
+Mở tệp CHANGELOG.md trong dự án
+Thêm thông tin phiên bản mới
+
+## 0.0.2
+
+* Mô tả các thay đổi trong phiên bản này
+Bước 3: Kiểm tra gói trước khi xuất bản
+
+Chạy lệnh kiểm tra:
+
+flutter pub publish --dry-run
+
+Sửa bất kỳ vấn đề nào được phát hiện
+
+Bước 4: Xuất bản gói lên pub.dev
+
+Chạy lệnh:
+
+flutter pub publish
+
+Khi nhận được câu hỏi:
+
+Do you want to publish face_detector_plugin 0.0.2 to https://pub.dev (y/N)?
+
+Gõ y và nhấn Enter
+
+Bước 5: Xác minh xuất bản
+
+Sau khi xuất bản thành công, bạn sẽ thấy thông báo xác nhận
+Kiểm tra gói của bạn trên pub.dev (có thể mất vài phút để hiển thị)
