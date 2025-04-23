@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Examples
+
+## 0.0.3
+
+* Name License

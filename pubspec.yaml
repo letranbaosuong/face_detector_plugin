@@ -1,6 +1,6 @@
 name: face_detector_plugin
 description: "Plugin phát hiện khuôn mặt cho Flutter sử dụng API native."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/letranbaosuong/face_detector_plugin.git
 repository: https://github.com/letranbaosuong/face_detector_plugin.git
 issue_tracker: https://github.com/letranbaosuong/face_detector_plugin/issues
